@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Header from './commonents/Header/Header';
+import Shop from './commonents/Shop/Shop';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+        <Header></Header>
+        <Shop></Shop>
     </div>
   );
 }
